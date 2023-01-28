@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compitible" content="IE=edge">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Txon-task-4.css">
+        <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674734493/ps09shravan3dxx_edited_naiamr.jpg">
+        <title>My-Portfilio-WebSite</title>
+        <script src="https://kit.fontawesome.com/535b53cf3e.js" crossorigin="anonymous"></script>
+        </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div>
+                        <img src="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674566288/Screenshot_2023-01-24_184742_pf7v1o.png" class="logo">
+                    </div>
+                    
+
+                    <ul id="sideMenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Doveloper</p>
+                    <h1>Hi, I'm <span>Shravan</span> <br>From India</h1>
+                </div>
+            </div>
+
+        </div>
+<!--------about--------------------------------->
+        <div id="about">
+            <div class ="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674480719/IMG_0090_edited-modified_l7kpmz.png" >
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About me</h1>
+                        <h1 class="my-course-heading">Full-Stack <span class="symbol">&</span> Web Developer</h1>
+                        <p class="about-para">I'm a Full-Stack Web Developer. I can provide clean code and pixel perfect design.
+                            I also make the website more & more interactive with web animations. A responsive 
+                            design makes your website accessible to all users, regardless of their device.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick ="opentab('expirience')">Expirience</p>
+                            <p class="tab-links" onclick ="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Designing Web interfaces</li>
+                                <li><span>Frant-End Developer</span><br>Designing loging pages using Html, Css , JavaScript</li>
+                                <li><span>Back-End Developer</span><br>Database using SQL , node js , React js</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="expirience">
+                            <ul>
+                                <li><span>Full-Stack Developer</span><br>Nxtwave Disruptive Technologies Ongoing</li>
+                                <li><span>July-11-2022</span><br>I,m taking training on CCBP 4.0 </li>
+                                <li><span>Fresher</span><br>I have Zero Expirience, but I can Build websites</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2021</span><br>Annamacharya Institute of Technology and Sciences, 
+                                    Hyderabad, RR(dist)
+                                    <br><span id="Education-details">Graduation - ECE, 6.32 CGPA</span></li>
+                                <li><span>2016</span><br>Sri Chaitanya Junior College, or States<br>
+                                    <span id="Education-details">Intermediate - MPC, 7.1 %</span></li>
+                                <li><span>2014</span><br>ZP High School, PapiReddyGuda, RR(dist) 2014<br>
+                                    <span id="Education-details">Secondary School Of Certificate - 7.2 CGPA</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  <!------------services--------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Every website should be built with two Primary gools Firstly, It needs
+                            to work across all devices. Secondly, it needs to be font as possible.
+                            I use tools <span class="span-color">HTML, CSS, Boostrap, JavaScript</span>.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Back-End Development</h2>
+                        <p>Every website should be built with two Primary gools Firstly, It needs
+                            to work across all devices. Secondly, it needs to be font as possible.
+                            I use tools <span class="span-color">Node JS, Python, SQL Database</span>.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Frant-End Development</h2>
+                        <p>Every website should be built with two Primary gools Firstly, It needs
+                            to work across all devices. Secondly, it needs to be font as possible.
+                            I use tools <span class="span-color">React JS, JavaScript</span>.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!----------------portfolio-------------------------------------------------------------->
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674710288/Screenshot_2023-01-26_104737_bx2era.png">
+                        <div class="layer">
+                            <h3>Add TodoList</h3>
+                            <p>I make the TodoList. When you can complete your task, search your task in search-bar and click add It.</p>
+                            <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674710293/Screenshot_2023-01-26_104611_wchcen.png">
+                        <div class="layer">
+                            <h3>Calculater</h3>
+                            <p>I make the simple Calculater. I use Tools this Project Like HTML, CSS, JavaScript.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dcyy7wrnq/image/upload/v1674731552/maxresdefault_edited_p0vkmf.jpg">
+                        <div class="layer">
+                            <h3>Form Validation</h3>
+                            <p>I make the Register form. Hear i use tools of Html, CSS, JavaScript.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#"class="btn">See more</a>
+                
+            </div>
+        </div>
+<!---------------------------contact----------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>gundusravan123456@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9000176761</p>
+                        <div class="social-icons">
+                            <a href='https://www.facebook.com/sravankumar.gundu.7' target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href='https://www.linkedin.com/in/shravankumar123456-gundu' target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href='https://www.instagram.com/ladduvlogs123/' target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            
+                        </div>
+                        <a href="txon/my-cv.pdf" download class="btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" placeholder="Your Message" ></textarea>
+                            <button class="button" type="submit"> Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Shravan.<i class="fa-solid fa-heart"></i> Maid by me</p>
+            </div>
+        </div>
+    <script src="Txon-task-4.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxI03eaLvfQP5UBuT3yKYapXmlb3H-Wv6VlHCoW3okTCsoUBTtZhGM4Iw0J_11qkWGl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message Sen Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+
+</html>
